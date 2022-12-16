@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+}
+
+.app{
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.app_header{
+  background-color: white;
+  border-bottom: 1px solid rgb(91, 80, 80);
+}
+
+.app_header_img{
+  object-fit: contain;
+  height: 35px;
+  width: auto;
+  background-color: white;
+}
+
