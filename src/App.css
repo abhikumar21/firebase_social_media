@@ -3,11 +3,14 @@
 }
 
 .app{
-  background-color: #fafafa;
+  background-color: none;
   height: 100vh;
 }
 
 .app_header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
   background-color: white;
   border-bottom: 1px solid rgb(91, 80, 80);
 }
@@ -17,5 +20,98 @@
   height: 35px;
   width: auto;
   background-color: white;
+
+
 }
 
+.app_signup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_signup input{
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  width: 80%;
+
+}
+
+.submitbtn{
+  margin-top: 20px;
+  width: 100px;
+  background-color: black;
+  color: aliceblue;
+ border-radius: 5px;
+ margin-top: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.submitbtn:hover {
+  color: antiquewhite;
+  background-color: rgb(7, 3, 53);
+  
+}
+
+.app_header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.image_upload{
+  position: sticky;
+  bottom: 0;
+}
+
+.content{
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(206, 217, 226);
+  margin-top: 10px;
+  border-right: 2px solid rgb(188, 131, 186) ;
+  height: 100vh;
+  position: sticky;
+  top: 40px;
+}
+
+.sidebar .btn {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(162, 177, 190);
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.sidebar .btn:hover{
+  background-color: rgb(175, 130, 218);
+}
+
+.post_group{
+  padding-left: 10vw;
+}
+
+.image_upload{
+  padding-top: 100px;
+  position: sticky;
+  top: 100px;
+}

@@ -1,0 +1,11 @@
+.uploader .upload{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.uploader{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 253, 253);
+    border-top: 1px solid black;
+}
